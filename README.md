@@ -2,14 +2,15 @@
 AtCoder用リポジトリ
 
 # 説明
-AtCoderのACしたコードを備忘録として置いていきます。
-使用言語はPythonです。デバイスはM1 Macbook Airです。
+-AtCoderのACしたコードを備忘録として置いていきます。
+-使用言語はPythonです。
+-デバイスはM1 Macbook Airです。
 
 # 使い方
 コピペして提出してください。
 
 # インストール
-```terminal
+```
 $ git clone https://github.com/Kenshiro-Tanaka/Atcoder
 ```
 でできるはずです。(Github使っておいて詳しくないので試してないです。)
