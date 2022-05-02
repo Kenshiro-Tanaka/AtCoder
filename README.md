@@ -8,7 +8,7 @@ AtCoderのACしたコードを備忘録として置いていきます。
 # 使い方
 コピペして提出してください。
 
-#　インストール
+# インストール
 ```terminal
 $ git clone https://github.com/Kenshiro-Tanaka/Atcoder
 ```
