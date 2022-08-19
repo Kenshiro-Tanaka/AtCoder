@@ -1,9 +1,9 @@
 # AtCoder
-AtCoder用リポジトリ
+AtCoderの解答保存用リポジトリ
 
 # 説明
 - AtCoderのACしたコードを備忘録として置いていきます。
-- 使用言語はPythonです。
+- 使用言語はPython又はC++です。
 - デバイスはM1 Macbook Airです。
 
 # 使い方
