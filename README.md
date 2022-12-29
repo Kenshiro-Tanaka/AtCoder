@@ -16,4 +16,4 @@ $ git clone https://github.com/Kenshiro-Tanaka/Atcoder
 でできるはずです。(Github使っておいて詳しくないので試してないです。)
 
 # 作者
-[@e_ars_longa](https://twitter.com/e_ars_longa)
+/*[@e_ars_longa](https://twitter.com/e_ars_longa)*/
