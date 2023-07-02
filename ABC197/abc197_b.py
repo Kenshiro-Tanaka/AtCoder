@@ -1,5 +1,12 @@
 H, W, X, Y = map(int, input().split())
-grid = [input() for i in range(H)]
+# この問題は文字列なので以下の書き方でも二次元配列っぽく扱えるが汎用性に乏しい
+# grid = [input() for i in range(H)]
+# 二次元配列はリストのリストで扱う
+grid = []
+for i in range(H):
+    S = input()
+    S = list(S) # 1文字ずつになる
+    grid.append(S)
 
 count = 1 # grid[X][Y]自身として1
 X -= 1 # indexに揃えるため
