@@ -16,11 +16,8 @@ int main() {
     cin >> A >> B;
 
     string flag = "Easy";
-    int a1, b1;
     while (A != 0 and B != 0) {
-        a1 = A % 10;  // 1の位は10で割ったあまりで
-        b1 = B % 10;
-        if (a1 + b1 >= 10) {
+        if ((A % 10) + (B % 10) >= 10) { // 1の位は10で割ったあまりで
             flag = "Hard";
             break;
         } else {
