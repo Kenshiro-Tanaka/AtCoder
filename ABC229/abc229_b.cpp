@@ -16,7 +16,7 @@ int main() {
     cin >> A >> B;
 
     string flag = "Easy";
-    while (A != 0 and B != 0) {
+    while (A != 0 or B != 0) {
         if ((A % 10) + (B % 10) >= 10) { // 1の位は10で割ったあまりで
             flag = "Hard";
             break;
