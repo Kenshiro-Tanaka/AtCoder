@@ -1,14 +1,14 @@
 def g1(x):
-    l = [int(i) for i in list(str(x))] # 桁ごとのリストを作る
+    x = str(x) # 桁ごとに分けるには int -> str -> list
+    l = list(x)
     l.sort(reverse = True)
-    L = int("".join(map(str, l))) # joinはstrにしてから
-    return L
+    return int("".join(l))
 
 def g2(x):
-    l = [int(i) for i in list(str(x))]
+    x = str(x)
+    l = list(x)
     l.sort()
-    L = int("".join(map(str, l)))
-    return L
+    return int("".join(l))
 
 def f(x):
     return g1(x) - g2(x)
